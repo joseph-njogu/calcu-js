@@ -1,13 +1,8 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-  font-family: Gotham Rounded, sans-serif;
-  font-weight: normal;
-}
 
 body {
   padding: 0;
   margin: 0;
-  /*background: linear-gradient(to right, #00AAFF, #00FF6C);*/
+  background: linear-gradient(to right, #e3e5e7, #83eeb0);
 }
 
 .calculator-grid {
@@ -28,7 +23,7 @@ body {
 }
 
 .calculator-grid > button:hover {
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(121, 10, 10, 0.9);
 }
 
 .span-two {
@@ -37,7 +32,7 @@ body {
 
 .output {
   grid-column: 1 / -1;
-  background-color: rgba(0, 0, 0, .75);
+  background-color: rgba(246, 178, 178, 0.75);
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
